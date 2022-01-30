@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.whole{
+    @apply text-primary font-body p-8;
+     
+}
+p{
+    @apply text-sm;
+}
+.b-text{
+    @apply text-secondary;
+}
+.whole-form{
+    @apply w-full mb-4 shadow-lg rounded  m-4 md:max-w-screen-lg mx-auto;
+}
+.container{
+    
+    @apply grid-cols-2 gap-4 md:grid grid-cols-2;
+   
+}
+.input-text{
+    @apply bg-gray-100 px-3 py-2 rounded w-full m-1.5 flex flex-col mb-2;
+}
+.icons{
+    @apply  text-gray-400 focus-within:text-gray-600 block w-48;
+}
+.input-text-name{
+    @apply bg-gray-100 px-3 py-2 rounded w-full m-1.5;
+}
+.fullname{
+    @apply lg:grid grid-cols-2 ;
+}
+.form-container{
+    @apply text-center p-6;
+}
+.logo-container{
+    @apply   max-w-xs md:py-20 pl-28  ;
+    
+}
+.img-container{
+    @apply bg-secondary overflow-hidden p-4;
+}
+.txt-title{
+    @apply text-2xl text-secondary pb-5;
+}
+.btn{
+    @apply font-bold py-2 px-4 bg-blue-900 text-white;
+   
+}
+.btn:hover{
+    @apply bg-blue-400;
+}
+
+
