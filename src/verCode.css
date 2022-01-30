@@ -5,6 +5,19 @@
 @tailwind components;
 @tailwind utilities;
 
-.trial{
-    @apply text-secondary bg-blue-400;
+.whole-form{
+    @apply text-primary  text-center font-body;
+    @apply w-full mb-4 shadow-lg rounded  m-4 md:max-w-screen-lg mx-auto;
+    
+}
+
+.container{
+    @apply bg-white rounded shadow-lg;
+}
+
+.btn-verify{
+    @apply bg-red-400 text-red-600 rounded text-red-50 px-4;
+}
+.input-text{
+    @apply bg-gray-100 px-3 py-2 rounded ;
 }
