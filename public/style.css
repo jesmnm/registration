@@ -571,8 +571,11 @@ p{
 }
 
 .logo-container{
-  max-width: 20rem;
-  padding-left: 7rem;
+  margin-left: auto;
+  margin-right: auto;
+  -o-object-position: center;
+     object-position: center;
+  padding: 2.5rem;
 }
 
 @media (min-width: 768px){

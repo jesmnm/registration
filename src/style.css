@@ -39,7 +39,7 @@ p{
     @apply text-center p-6;
 }
 .logo-container{
-    @apply   max-w-xs md:py-20 pl-28  ;
+    @apply   mx-auto object-center md:py-20 p-10 ;
     
 }
 .img-container{

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build-css": "tailwindcss build -i src/style.css -o public/style.css",
-    "build-verCode": "tailwindcss build -i src/verCode.css -o public/verCode.css"
+    "build-verCode": "tailwindcss build -i src/verCode.css -o public/verCode.css",
+    "build-profilePage": "tailwindcss build -i src/profilePage.css -o public/profilePage.css"
   },
   "keywords": [],
   "author": "",
