@@ -5,3 +5,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.info-info{
+    @apply gap-4 md:grid grid-cols-2;
+}

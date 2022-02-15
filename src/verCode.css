@@ -7,12 +7,12 @@
 
 .whole-form{
     @apply text-primary  text-center font-body;
-    @apply w-full mb-4 shadow-lg rounded  m-4 md:max-w-screen-lg mx-auto;
+    @apply w-full mb-4 shadow-lg rounded  my-4 md:max-w-screen-lg mx-auto ;
     
 }
 
 .container{
-    @apply bg-white rounded shadow-lg p-8;
+    @apply bg-white rounded shadow-lg p-8 py-14;
 }
 .logo-container{
     @apply mx-auto object-center;
